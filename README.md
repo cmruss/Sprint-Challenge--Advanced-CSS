@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive jumps formats based on the styling to detect and the respond to the screen size of the viewing device. 
+Fully responsive will change not based on a specific screen size, but is designed to transition smoothly across any screen size, without defining any specific parameters for sizing.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is when a developer creates and styles a site designed to primarily function well on a mobile device, where as desktop first is designed to work primarily on a desktop computer.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This makes the font a metric unit of about 10pt, since rems are based on the root font size, using any multiplier will give you a clear idea of what font-size you are setting; eg. 2.4rem would be equivalent to 24pt font.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a tool that allows for easier, stronger, more legible code. Using a preprocessor makes it easier to keep track of all your styling and quickly change multiple element styles at once.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Mixins utilizing variables takes top spot for me, the ease and functionality that these components working in tandem offer is far and beyond traditional CSS styling so far.
+Of everything we've covered so far, I cant say that there's anything that gives me much trouble, there are plenty of further use cases that I am completely ignorant of so I guess I would have to say that's my trouble, what I don't know about yet.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
