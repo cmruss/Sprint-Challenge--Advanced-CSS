@@ -9,4 +9,28 @@
     font-size: 1.6rem;
     border-radius: 5px;
     color: @txt-color;
+
+    &:hover{
+        background-color: @txt-color;
+        color: @bg-color;
+        border: 1px solid @nav-border;
+    }
+
+    @media(@phone){
+        .mobile();
+        height: 9vh;
+      }
+}
+
+.flex-align(@direction,@justify, @align) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+  }
+
+.mobile() {
+    width: 95%;
+    margin: 3% auto;
+
 }
