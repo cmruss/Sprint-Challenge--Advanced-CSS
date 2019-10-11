@@ -154,7 +154,8 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
-p {
+p,
+form {
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -281,6 +282,24 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text form {
+  width: 100%;
+  height: 10vh;
+}
+.home .walk .walk-text form input {
+  width: 100%;
+  height: 3vh;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text form input {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text form {
+    text-align: center;
+  }
 }
 .home .walk .walk-text .btn {
   display: flex;
